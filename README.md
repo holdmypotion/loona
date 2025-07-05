@@ -27,7 +27,7 @@ A powerful Neovim plugin that integrates Google's Gemini AI directly into your e
 
 ```lua
 {
-    "yourusername/gemini-chat.nvim",
+    "holdmypotion/gemini-chat.nvim",
     dependencies = {
         "nvim-lua/plenary.nvim"  -- Required for some utility functions
     },
@@ -43,7 +43,7 @@ A powerful Neovim plugin that integrates Google's Gemini AI directly into your e
 
 ```lua
 use {
-    "yourusername/gemini-chat.nvim",
+    "holdmypotion/gemini-chat.nvim",
     requires = {
         "nvim-lua/plenary.nvim"
     },
@@ -59,7 +59,7 @@ use {
 
 ```vim
 Plug 'nvim-lua/plenary.nvim'
-Plug 'yourusername/gemini-chat.nvim'
+Plug 'holdmypotion/gemini-chat.nvim'
 ```
 
 Then add to your `init.lua`:
